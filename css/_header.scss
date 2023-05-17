@@ -1,0 +1,127 @@
+/* paleta de colores*/
+$color1: rgba(0,0,0,0.3);
+$color2: #16ED50;
+$color3: #FFFDFC;
+$color4: #CE9678;
+$color5: #C5C5C5;
+$color6: #F9FAFC;
+$color7: #EBAD8D;
+$color8: #E1E2E6;
+$color9: rgb(18,19,18);
+$color10: greenyellow;
+$color11: #414247;
+$color12: rgba(0,0,0,0.7);
+$color13: #EACCB3;
+$color14: #323337;
+$color15: rgba(250,248,248);
+$color16: rgb(42,245,24);
+$color17: #504D4D;
+$color18: rgb(30, 216, 161);
+
+@mixin header ($background-position, $background-repeat, $background-size, $min-height, $display, $alig-items){
+    background-position: $background-position;
+    background-repeat:$background-repeat;
+    background-size: $background-size;
+    min-height: $min-height;
+    display: $display;
+    align-items: $alig-items; 
+}
+
+.header {
+    background-image: linear-gradient($color1, $color1),
+        url(../img/C3.jpg);
+        @include header (center bottom, no-repeat, cover, 70vh, flex, center)
+}
+
+
+
+.header1 {
+    background-image: linear-gradient($color1, $color1),
+        url(../img/A7.jpg);
+    @include header (center bottom, no-repeat, cover, 70vh, flex, center)
+}
+
+.header2 {
+    background-image: linear-gradient($color1, $color1),
+        url(../img/c8.jpg);
+        @include header (center bottom, no-repeat, cover, 70vh, flex, center)
+}
+
+.header3 {
+    background-image: linear-gradient($color1, $color1),
+        url(../img/viajero.jpeg);
+        @include header (center bottom, no-repeat, cover, 70vh, flex, center)
+}
+
+.header4 {
+    background-image: linear-gradient($color1, $color1),
+        url(../img/contacto.jpg);
+        @include header (center bottom, no-repeat, cover, 70vh, flex, center)
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: $color2;
+    font-size: 25px;
+    height: 100;
+
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 10px;
+    color: $color3;
+    display: block;
+    font-weight: 100;
+    right: 0;
+}
+
+.menu .navbar ul li a:hover {
+    color: $color4;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 30px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: $color3;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 30px;
+    color: $color5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}

@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Animate a vivir una aventura diferente como ninguna otra. Somos una empresa que se adapta al tipo de aventura que estas buscando. Podras contratar paquetes turisticos tradicionales o extremos. Elegi Turismo aventura">
+    <meta name="keywords" content="viajar, viajes, aventura, vacaciones, paseo, turismo, argentina, paquetes, tour, turismo guiado, Trekkinga, caminatas, Jujuy, Salta, Tucuman, Patagonia, Cordoba, montañas, sierras">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/db7d002f4f.js" crossorigin="anonymous"></script>
     <title>TURISMO AVENTURA</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../img/icono1.png" type="image/x-icon">
 </head>
 <body>
@@ -15,7 +18,7 @@
 <header class="header">
 
     <div class="menu container">
-       <div class="logo"><i class="fa-solid fa-campground fa-beat"></i>Turismo Aventura </div>
+       <div class="logo"><i class="fa-solid fa-campground fa-beat" class="animate_bruce" ></i>Turismo Aventura </div>
 
        <input type="checkbox" id="menu">
             <label for="menu">
@@ -23,15 +26,27 @@
             </label>
             <nav class="navbar">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="aventuraextrema.html">Aventura extrema</a></li>
-                    <li><a href="aventuraentransporte.html">Aventura en transporte</a></li>
-                    <li><a href="preguntas frecuentes.html">Preguntas Frecuentes</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="index.html" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">Inicio</a></li>
+                    <li><a href="aventuraextrema.html" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">Aventura extrema</a></li>
+                    <li><a href="aventuraentransporte.html" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">aventura en transporte</a></li>
+                    <li><a href="preguntas frecuentes.html" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">Preguntas Frecuentes</a></li>
+                    <li><a href="contacto.html" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">Contacto</a></li>
                 </ul>
         </nav>
     </div>
-    <div class="header-content container">
+    <div class="header-content container" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
 
         <h1>Turismo Aventura</h1>
         <p>
@@ -49,7 +64,9 @@
                 <p class="txt-p">
                 En turismo aventura podes elegir el traslado de dos personas al precio de una
                     </p>
-                    <a href="preguntas frecuentes.html" class="btn-1" >Información</a>
+                    <a href="preguntas frecuentes.html" class="btn-1" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">Información</a>
             </div>
         </div>
         <div class="turismo-2">
@@ -100,19 +117,19 @@
         <div class="turismo-content container">        
             <h2> Aventura extrema</h2>
             <p>¿Estas listo para una aventura? Esta es tu oportunidad</p>
-            <a href="aventura extrema.html" class="btn-1">Informacion</a>
+            <a href="aventura extrema.html" class="btn-1" data-aos="fade-right">Informacion</a>
         </div>
         <div>
-            <img src="../img/A4.jpg" class="img-thumbnail" alt="Cinque Terre">
+            <img src="../img/A4.jpg" class="img-thumbnail" alt="Cinque Terre" data-aos="fade-left">
         </div>
 
         <div>
-            <img src="../img/combi.jpg" class="img-thumbnail" alt="Cinque Terre">
+            <img src="../img/combi.jpg" class="img-thumbnail" alt="Cinque Terre" data-aos="fade-right">
         </div>
         <div class="turismo-content container">        
             <h2> Aventura en transporte</h2>
             <p>Nuevas historias te estan esperando</p>
-            <a href="aventuraentransporte.html" class="btn-1">Informacion</a>
+            <a href="aventuraentransporte.html" class="btn-1" data-aos="fade-left">Informacion</a>
         </div>
     
     </article>
@@ -131,5 +148,10 @@
             <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+       
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+              </script>
         </body>
         </html> 
