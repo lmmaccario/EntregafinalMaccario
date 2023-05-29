@@ -71,7 +71,7 @@ body {
 @media(max-width:991px) {
 
     .menu {
-        padding: 30px;
+        padding: 1px;
     }
 
     .menu label {
@@ -83,7 +83,7 @@ body {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: $color14;
+        background-color: #323337;
         display: none;
     }
 
@@ -91,12 +91,28 @@ body {
         width: 100%;
     }
 
-    #menu:checked~.navbar {
+    #menu:checked ~ .navbar {
         display: initial;
     }
 
     .header {
-        min-height: 0vh;
+        min-height: 80vh;
+    }
+
+    .header1 {
+        min-height: 80vh;
+    }
+
+    .header2 {
+        min-height: 80vh;
+    }
+
+    .header3 {
+        min-height: 80vh;
+    }
+
+    .header4 {
+        min-height: 80vh;
     }
 
     .header-content {

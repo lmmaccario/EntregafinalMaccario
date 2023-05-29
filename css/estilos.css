@@ -107,7 +107,7 @@ body {
 }
 
 .menu-icono {
-  width: 30px;
+  width: 20px;
 }
 
 .menu label {
@@ -121,10 +121,10 @@ body {
 
 .header-content h1 {
   font-size: 75px;
-  line-height: 80px;
+  line-height: 5px;
   color: #FFFDFC;
   text-transform: uppercase;
-  margin-bottom: 35px;
+  margin-bottom: 1px;
 }
 
 .header-content p {
@@ -450,7 +450,7 @@ h4 {
 
 @media (max-width: 991px) {
   .menu {
-    padding: 30px;
+    padding: 1px;
   }
   .menu label {
     display: initial;
@@ -470,7 +470,19 @@ h4 {
     display: initial;
   }
   .header {
-    min-height: 0vh;
+    min-height: 80vh;
+  }
+  .header1 {
+    min-height: 80vh;
+  }
+  .header2 {
+    min-height: 80vh;
+  }
+  .header3 {
+    min-height: 80vh;
+  }
+  .header4 {
+    min-height: 80vh;
   }
   .header-content {
     padding: 100px 30px;
