@@ -37,7 +37,7 @@ $color-20: orange;
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 1em;
-
+    min-height: 70vh;
 }
 
 .grid div {
