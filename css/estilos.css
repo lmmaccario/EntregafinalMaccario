@@ -449,7 +449,7 @@ h4 {
   left: 0%;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 900px) {
   .menu {
     padding: 1px;
   }
@@ -471,22 +471,25 @@ h4 {
     display: initial;
   }
   .header {
-    min-height: 80vh;
+    min-height: 90vh;
   }
   .header1 {
-    min-height: 80vh;
+    min-height: 90vh;
   }
   .header2 {
-    min-height: 80vh;
+    min-height: 90vh;
   }
   .header3 {
-    min-height: 80vh;
+    min-height: 90vh;
   }
   .header4 {
-    min-height: 80vh;
+    min-height: 90vh;
   }
   .header-content {
-    padding: 100px 30px;
+    padding: 100px 10px;
+  }
+  .header-content h1 {
+    font-size: 50px;
   }
   .header-content p {
     padding: 0;
